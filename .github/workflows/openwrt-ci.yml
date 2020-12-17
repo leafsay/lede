@@ -52,10 +52,10 @@ jobs:
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
-          git clone https://github.com/liuran001/openwrt-packages.git
-          git clone https://github.com/Lienol/openwrt-package.git
-          git clone https://github.com/kenzok8/openwrt-packages.git
-          git clone https://github.com/siropboy/mypackages.git
+          git clone https://github.com/liuran001/openwrt-packages package/liuran
+          git clone https://github.com/Lienol/openwrt-package package/lienol
+          git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
+          git clone https://github.com/siropboy/mypackages package/sirboy
           
           # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
           # ln -s /mnt/openwrt/bin ./bin
