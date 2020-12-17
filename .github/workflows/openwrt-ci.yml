@@ -56,8 +56,9 @@ jobs:
           git clone https://github.com/jerrykuku/luci-app-vssr.git
           git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
           git clone https://github.com/tty228/luci-app-serverchan.git
-          git clone https://github.com/Lienol/openwrt-package/tree/main/luci-app-socat.git
-          git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-smartdns.git
+          git clone https://github.com/Lienol/openwrt-package.git
+          git clone https://github.com/kenzok8/openwrt-packages.git
+          git clone https://github.com/siropboy/mypackages package/mypackages
           
           # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
           # ln -s /mnt/openwrt/bin ./bin
