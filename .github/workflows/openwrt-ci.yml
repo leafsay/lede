@@ -52,6 +52,7 @@ jobs:
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
+          git clone https://github.com/jerrykuku/openwrt-package.git package/jerry
           git clone https://github.com/Lienol/openwrt-package package/lienol
           git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
           git clone https://github.com/kenzok8/small package/small
