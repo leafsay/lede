@@ -241,6 +241,8 @@ jobs:
           CONFIG_V2RAY_EXCLUDE_V2CTL=y
           CONFIG_boost-compile-visibility-hidden=y
           CONFIG_boost-runtime-shared=y
+          CONFIG_boost-static-and-shared-libs=y
+          CONFIG_boost-variant-release=y
           EOF
 
           #
