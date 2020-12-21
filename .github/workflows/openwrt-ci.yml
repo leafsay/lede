@@ -226,7 +226,7 @@ jobs:
           CONFIG_PACKAGE_shadowsocksr-libev-server=y
           # CONFIG_PACKAGE_simple-obfs is not set
           CONFIG_PACKAGE_smartdns=y
-          CONFIG_PACKAGE_socat=y
+          # CONFIG_PACKAGE_socat is not set
           CONFIG_PACKAGE_ssocks=y
           CONFIG_PACKAGE_tc=y
           CONFIG_PACKAGE_terminfo=y
