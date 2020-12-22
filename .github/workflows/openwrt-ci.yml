@@ -53,7 +53,6 @@ jobs:
           mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/jerrykuku/openwrt-package.git package/jerry
-          git clone https://github.com/Lienol/openwrt-package package/lienol
           git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
           git clone https://github.com/kenzok8/small package/small
           git clone https://github.com/siropboy/mypackages package/sirboy
@@ -194,7 +193,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-samba=y
           CONFIG_PACKAGE_luci-app-serverchan=y
           CONFIG_PACKAGE_luci-app-smartdns=y
-          CONFIG_PACKAGE_luci-app-socat=y
           # CONFIG_PACKAGE_luci-app-ssr-plus is not set
           CONFIG_PACKAGE_luci-app-syncdial=y
           CONFIG_PACKAGE_luci-app-usb-printer=y
@@ -207,7 +205,6 @@ jobs:
           CONFIG_PACKAGE_luci-i18n-qos-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-samba-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-socat-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-usb-printer-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-wrtbwmon-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
