@@ -52,11 +52,9 @@ jobs:
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
-          git clone https://github.com/jerrykuku/openwrt-package.git package/jerry
-          git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
-          git clone https://github.com/kenzok8/small package/small
-          git clone https://github.com/siropboy/mypackages package/sirboy
-          git clone https://github.com/tty228/luci-app-serverchan.git package/tty228
+          
+          git clone https://github.com/leafsay/theme package/leafsay
+          git clone https://github.com/281677160/openwrt-package package/nyyyyyy
           
           # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
           # ln -s /mnt/openwrt/bin ./bin
@@ -209,7 +207,7 @@ jobs:
           CONFIG_PACKAGE_luci-i18n-wrtbwmon-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
           CONFIG_PACKAGE_luci-proto-ipv6=y
-          CONFIG_PACKAGE_luci-theme-edge=y
+          CONFIG_PACKAGE_luci-theme-rosy=y
           CONFIG_PACKAGE_mwan3=y
           CONFIG_PACKAGE_node=y
           CONFIG_PACKAGE_odhcp6c=y
