@@ -185,7 +185,6 @@ jobs:
           CONFIG_PACKAGE_luci-proto-ipv6=y
           CONFIG_PACKAGE_luci-theme-Butterfly=y
           CONFIG_PACKAGE_luci-theme-argonv3=y
-          CONFIG_PACKAGE_luci-theme-ifit=y
           CONFIG_PACKAGE_luci-theme-opentomato=y
           CONFIG_PACKAGE_luci-theme-opentopd
           CONFIG_PACKAGE_luci-theme-rosy=y
