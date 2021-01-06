@@ -186,8 +186,6 @@ jobs:
           CONFIG_PACKAGE_luci-theme-Butterfly=y
           CONFIG_PACKAGE_luci-theme-argonv3=y
           CONFIG_PACKAGE_luci-theme-opentomato=y
-          CONFIG_PACKAGE_luci-theme-opentopd
-          CONFIG_PACKAGE_luci-theme-rosy=y
           CONFIG_PACKAGE_ntfs-3g=y
           CONFIG_PACKAGE_ntfs-3g-utils=y
           CONFIG_PACKAGE_odhcp6c=y
