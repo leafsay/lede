@@ -112,9 +112,6 @@ jobs:
           CONFIG_PACKAGE_kmod-fs-exfat=y
           CONFIG_PACKAGE_kmod-fs-ext4=y
           CONFIG_PACKAGE_kmod-fs-vfat=y
-          CONFIG_PACKAGE_kmod-fs-nfsd=y
-          CONFIG_PACKAGE_kmod-fs-nfs=y
-          CONFIG_PACKAGE_kmod-fs-nfs-v4=y
           CONFIG_PACKAGE_kmod-fuse=y
           CONFIG_PACKAGE_kmod-ipt-nat6=y
           CONFIG_PACKAGE_kmod-iptunnel=y
